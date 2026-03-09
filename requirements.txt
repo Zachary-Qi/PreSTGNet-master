@@ -1,0 +1,131 @@
+absl-py==2.3.1
+aiohappyeyeballs==2.6.1
+aiohttp==3.13.2
+aiosignal==1.4.0
+annotated-types==0.7.0
+antlr4-python3-runtime==4.9.3
+async-timeout==5.0.1
+attrs==25.4.0
+axial_positional_embedding==0.3.12
+causal-conv1d==1.3.0.post1
+certifi==2025.11.12
+charset-normalizer==3.4.4
+click==8.3.1
+CoLT5-attention==0.11.1
+conda-pack @ file:///home/conda/feedstock_root/build_artifacts/conda-pack_1734292804024/work
+contourpy==1.3.2
+cycler==0.12.1
+dgl==2.4.0+cu124
+einops==0.8.1
+filelock==3.19.1
+fonttools==4.60.1
+frozenlist==1.8.0
+fsspec==2025.9.0
+gensim @ file:///home/task_176165105581066/conda-bld/gensim_1761651458402/work
+gitdb==4.0.12
+GitPython==3.1.45
+grpcio==1.76.0
+h5py==3.15.1
+hf-xet==1.2.0
+huggingface-hub==0.36.0
+hydra-core==1.3.2
+hyper-connections==0.2.1
+idna==3.11
+info-nce-pytorch==0.1.4
+Jinja2==3.1.6
+joblib @ file:///home/task_175792628915440/conda-bld/joblib_1757926346336/work
+kiwisolver==1.4.9
+lightning-utilities==0.15.2
+linear-attention-transformer==0.19.1
+linformer==0.2.3
+local-attention==1.11.2
+mamba-ssm==2.2.2
+Markdown==3.10
+MarkupSafe==2.1.5
+matplotlib==3.10.7
+mpmath==1.3.0
+multidict==6.7.0
+networkx==3.3
+ninja==1.13.0
+numexpr @ file:///home/conda/feedstock_root/build_artifacts/numexpr_1762594842027/work
+numpy==2.2.6
+nvidia-cublas-cu12==12.4.2.65
+nvidia-cuda-cupti-cu12==12.4.99
+nvidia-cuda-nvrtc-cu12==12.4.99
+nvidia-cuda-runtime-cu12==12.4.99
+nvidia-cudnn-cu12==9.1.0.70
+nvidia-cufft-cu12==11.2.0.44
+nvidia-cufile-cu12==1.13.1.3
+nvidia-curand-cu12==10.3.5.119
+nvidia-cusolver-cu12==11.6.0.99
+nvidia-cusparse-cu12==12.3.0.142
+nvidia-cusparselt-cu12==0.7.1
+nvidia-nccl-cu12==2.20.5
+nvidia-nvjitlink-cu12==12.4.99
+nvidia-nvshmem-cu12==3.3.20
+nvidia-nvtx-cu12==12.4.99
+omegaconf==2.3.0
+packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1745345660/work
+pandas==2.3.3
+pillow==11.3.0
+platformdirs==4.5.0
+positional-encodings==6.0.3
+product_key_memory==0.3.0
+propcache==0.4.1
+protobuf==6.33.1
+psutil==7.1.3
+py-cpuinfo @ file:///home/conda/feedstock_root/build_artifacts/py-cpuinfo_1733236359728/work
+pyaml==25.7.0
+pydantic==2.12.4
+pydantic_core==2.41.5
+pyparsing==3.2.5
+python-dateutil==2.9.0.post0
+pytorch-lightning==2.1.4
+pytz==2025.2
+PyYAML==6.0.3
+regex==2025.11.3
+requests==2.32.5
+rotary-embedding-torch==0.8.9
+safetensors==0.7.0
+schedulefree==1.4.1
+scikit-learn==1.7.2
+scipy @ file:///home/task_175922202585198/conda-bld/scipy_1759222074702/work/dist/scipy-1.15.3-cp310-cp310-linux_x86_64.whl#sha256=b8f5c48ae00291fce22e3fd4688c47b9e8c38462319d0dd1e8b5b4d7240368ec
+seaborn==0.12.2
+sentry-sdk==2.44.0
+six==1.17.0
+smart_open @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_smart_open_1762641207/work/dist
+smmap==5.0.2
+sympy==1.14.0
+tables @ file:///home/conda/feedstock_root/build_artifacts/pytables_1733265973444/work
+tensorboard==2.20.0
+tensorboard-data-server==0.7.2
+threadpoolctl @ file:///croot/threadpoolctl_1719407800858/work
+timm==1.0.24
+tokenizers==0.22.1
+torch==2.4.0+cu124
+torch-geometric==2.7.0
+torch_cluster==1.6.3+pt24cu124
+torch_scatter==2.1.2+pt24cu124
+torch_sparse==0.6.18+pt24cu124
+torch_spatiotemporal==0.9.5
+torch_spline_conv==1.2.2+pt24cu124
+torchaudio==2.4.0+cu124
+torchcde==0.2.5
+torchdiffeq==0.2.5
+torchinfo==1.8.0
+torchmetrics==1.8.2
+torchsde==0.2.6
+torchvision==0.19.0+cu124
+tqdm==4.67.1
+trampoline==0.1.2
+transformers==4.57.1
+triton==3.0.0
+typing-inspection==0.4.2
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_typing_extensions_1756220668/work
+tzdata==2025.2
+urllib3==2.5.0
+wandb==0.23.0
+Werkzeug==3.1.4
+wrapt @ file:///home/conda/feedstock_root/build_artifacts/wrapt_1762594886743/work
+xxhash==3.6.0
+yarl==1.22.0

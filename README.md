@@ -72,6 +72,17 @@ To further evaluate the generalization ability of the framework beyond freeway s
 
 Following prior work, both BikeNYC and TaxiNYC are aggregated into **grid-based spatiotemporal sequences** with **30-minute intervals**, where the prediction targets correspond to urban mobility demand flows.
 
+
+---
+
+## Trained Model Weights
+
+The trained model weights are available through Google Drive:
+
+[Download trained weights](https://drive.google.com/file/d/174tHQt3lBjxs1XQf6y5P7_jEBwGSPDBf/view?usp=sharing)
+
+After downloading the weights, please place them in the corresponding experiment directory or update the `PRE_TRAINED_WEIGHT_PATH` and `save_dir` settings in `main.py` and `test.py` according to your local file path.
+
 ---
 
 ## Quick Start
@@ -248,11 +259,18 @@ Example:
 If you find this repository useful for your research, please kindly cite our work:
 
 ```bibtex
-@article{zhang2026prestgnet,
-  title={Spatiotemporal Graph Neural Network for Traffic Flow Prediction Based on a Two-Stage Pre-training and Fine-tuning Framework},
-  author={Zhang, Shiqi and Liu, Zhen and Wo, Chenliang and Qian, Jialong and Liu, Yonghong and Gao, H. Oliver},
-  journal={Advanced Engineering Informatics},
-  year={2026}
+@article{ZHANG2026104572,
+title = {Spatiotemporal graph neural network for traffic flow prediction based on a two-stage pre-training and fine-tuning framework},
+journal = {Advanced Engineering Informatics},
+volume = {73},
+pages = {104572},
+year = {2026},
+issn = {1474-0346},
+doi = {https://doi.org/10.1016/j.aei.2026.104572},
+url = {https://www.sciencedirect.com/science/article/pii/S1474034626002648},
+author = {Shiqi Zhang and Zhen Liu and Chenliang Wo and Jialong Qian and Yonghong Liu and H. Oliver Gao},
+keywords = {Traffic flow prediction, Long-range dependencies, Pretraining–finetuning, Masked sequence reconstruction},
+abstract = {Accurate traffic flow prediction is essential for intelligent transportation systems. Existing short-horizon models rely on limited recent observations, which makes it difficult to capture long-range dependencies and global spatiotemporal structures and can yield overly smooth or unrealistic forecasts. We propose a two-stage pre-training and fine-tuning framework that first learns long-range spatiotemporal regularities from long historical sequences through masked sequence reconstruction, and then transfers the learned representations to short-horizon forecasting via a lightweight predictor with feature alignment and fusion. The framework also accounts for time-varying spatial dependencies and heterogeneous traffic patterns to improve robustness. Experiments on multiple benchmark datasets show consistent improvements over strong baselines, and further analyses suggest that the method better preserves spatial differences across sensors, reducing overly smoothed forecasts. The source code is available at: https://github.com/Zachary-Qi/PreSTGNet-master.}
 }
 ```
 
